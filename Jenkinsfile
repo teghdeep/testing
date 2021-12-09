@@ -10,7 +10,7 @@ agent any
     stage("copy")
           {
             steps{
-               sh "cp index.html /var/www/html"
+               bat "cp index.html /var/www/html"
             }
           }
   }
