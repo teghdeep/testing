@@ -10,7 +10,7 @@ agent any
     stage("copy")
           {
             steps{
-               sh 'cp index.html /home/teghdeep/Desktop/jenkins_assignment1'
+               echo 'Copy..'
             }
           }
    
