@@ -10,7 +10,7 @@ agent any
     stage("copy")
           {
             steps{
-               sh 'cp index.html /var/www/html'
+               sh 'sudo cp index.html /var/www/html'
             }
           }
    
