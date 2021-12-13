@@ -10,7 +10,7 @@ agent any
     stage("copy")
           {
             steps{
-               sh 'sudo cp index.html /var/www/html'
+               sh 'cp index.html /home/teghdeep/Desktop/jenkins_assignment1'
             }
           }
    
